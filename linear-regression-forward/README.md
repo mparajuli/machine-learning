@@ -28,13 +28,13 @@ This Python code implements linear regression, a fundamental technique in machin
 ### Linear Regression Model Prediction
 The predicted value for each data point is computed using the formula:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**_predicted_value = w1 * x1 + w2 * x2 + w3 * x3_**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Where:<br>
-    - `w1`, `w2`, and `w3` are the weights (coefficients) of the linear regression model.
-    - `x1`, `x2`, and `x3` are the features of the data point.
+&nbsp;&nbsp;&nbsp;&nbsp;where:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- `w1`, `w2`, and `w3` are the weights (coefficients) of the linear regression model.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- `x1`, `x2`, and `x3` are the features of the data point.
 
 ### Mean Squared Error (MSE)
 The mean squared error (MSE) is calculated as the average of the squared differences between the predicted values and the ground truth values:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**_MSE = (1 / N) * Σ(predicted_value - ground_truth)^2_**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Where:<br>
-    - `N` is the number of data points.
-    - `Σ` represents the summation over all data points.
+&nbsp;&nbsp;&nbsp;&nbsp;where:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- `N` is the number of data points.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- `Σ` represents the summation over all data points.
