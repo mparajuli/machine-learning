@@ -21,5 +21,5 @@ Return the final weights after training in the form of a NumPy array with dimens
 ### Update Formula
 The update rule for gradient descent used in the training loop is as follows:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;_For each weight `i`:_<br>
-&nbsp;&nbsp;&nbsp;&nbsp;***_initial_weights[i] -= learning_rate * derivative_i_***
+&nbsp;&nbsp;&nbsp;&nbsp;***_initial_weights[i] -= learning_rate * derivative_i_***<br>
 This rule adjusts each weight in the direction that minimizes the loss function, with the step size determined by the learning rate.
