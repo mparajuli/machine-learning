@@ -15,7 +15,7 @@ ground_truth - the correct answer for each example. len(ground_truth) = n.
 
 import numpy as np
 
-class Linear_Reg_Forward:
+class LinearRegForward:
   def get_model_prediction(self, X, weights):  
     # X is an Nx3 NumPy array
     # weights is a 3x1 NumPy array
@@ -39,8 +39,8 @@ X_test = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 weights_test = np.array([0.1, 0.2, 0.3]) 
 ground_truth_test = np.array([14, 32, 50]) 
 
-# Instantiate Linear_Reg_Forward
-linear_reg = Linear_Reg_Forward()
+# Instantiate LinearRegForward
+linear_reg = LinearRegForward()
 
 # Test get_model_prediction()
 model_predictions = linear_reg.get_model_prediction(X_test, weights_test)
