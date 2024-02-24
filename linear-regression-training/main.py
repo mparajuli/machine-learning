@@ -14,7 +14,7 @@ Return the final weights after training in the form of a NumPy array with dimens
 
 import numpy as np
 
-class Linear_Regression_Training:
+class LinearRegressionTraining:
   # get_derivatice() is given to you
   def get_derivative(self, model_prediction, ground_truth, N, X, desired_weight):
         # note that N is just len(X)
@@ -61,8 +61,8 @@ Y = [3, 9]
 num_iterations = 10
 initial_weights = [0.3, 0.2, 0.8]
 
-# Create an instance of the Linear_Regression_Training class
-trainer = Linear_Regression_Training()
+# Create an instance of the LinearRegressionTraining class
+trainer = LinearRegressionTraining()
 
 # Call the train_model function on the instance
 print(trainer.train_model(X, Y, num_iterations, initial_weights))
