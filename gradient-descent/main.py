@@ -9,7 +9,7 @@ return the value of x that globally minimizes this function.
 Round your final result to 5 decimal places using Python's round() function.
 '''
 
-class Gradient_Descent:
+class GradientDescent:
     @staticmethod
     def get_minimizer(iterations, learning_rate, init): 
         """
@@ -33,8 +33,8 @@ class Gradient_Descent:
 # Test cases
 # Case 1: iterations = 0, learning_rate = 0.1, init = 10
 # Expected output: 10 (unchanged)
-print(Gradient_Descent.get_minimizer(0, 0.1, 10))
+print(GradientDescent.get_minimizer(0, 0.1, 10))
 
 # Case 2: iterations = 5, learning_rate = 0.1, init = 10
 # Expected output: 3.2768 (closer to 0, as gradient descent approaches the minimum of f(x) = x^2)
-print(Gradient_Descent.get_minimizer(5, 0.1, 10))
+print(GradientDescent.get_minimizer(5, 0.1, 10))
